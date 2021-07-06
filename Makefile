@@ -7,4 +7,4 @@ build: ## Build container
 	docker build -t balintsoos/node-lotto:latest .
 
 start: ## Start container
-	docker run --rm balintsoos/node-lotto:latest
+	docker run --rm balintsoos/node-lotto:latest input.txt

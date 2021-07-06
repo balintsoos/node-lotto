@@ -13,4 +13,4 @@ ENV NODE_ENV production
 RUN npm ci --only=production && npm cache clean --force
 COPY --from=build /app/dist ./dist
 USER node
-CMD ["node", "dist/index.js"]
+ENTRYPOINT ["node", "dist/index.js"]

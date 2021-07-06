@@ -38,6 +38,8 @@ const handleResult = (line: string): void => {
   console.log(`${winnersOf2} ${winnersOf3} ${winnersOf4} ${winnersOf5}`);
 };
 
+const inputPath = process.argv[2];
+console.log({ inputPath });
 handleLine('1 2 3 4 5');
 handleLine('1 2 3 4 5');
 handleLine('1 2 3 4 6');
