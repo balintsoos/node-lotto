@@ -13,7 +13,6 @@ const combinationUtil = (
     result.push([...tempArr]);
     return;
   }
-
   // replace index with all possible elements. The condition
   // "end-i+1 >= sizeOfCombination-index" makes sure that including one element
   // at index will make a combination with remaining elements at remaining positions
