@@ -16,7 +16,7 @@ $ npm start input.txt
 
 The first argument is the path for the input file.
 
-After the input file is processed a `READY` message will be printed to the console. This may take a while. During my testing the processing of the provided input file with 10 million lines took 2-3 minutes and used almost 700MB of memory.
+After the input file is processed a `READY` message will be printed to the console. This may take a while. During my testing the processing of the provided input file with 10 million lines took 2-3 minutes and used almost 650MB of memory.
 
 ### Example usage
 
@@ -78,5 +78,6 @@ For sure:
 ## Useful resources that helped me
 
 - [Number of k-combinations](https://en.wikipedia.org/wiki/Combination#Number_of_k-combinations)
+- [Print all possible combinations of r elements in a given array of size n](https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/)
 - [[V8 Deep Dives] Understanding Map Internals](https://itnext.io/v8-deep-dives-understanding-map-internals-45eb94a183df)
 - [Maximum number of entries in a Node.js Map](https://stackoverflow.com/questions/54452896/maximum-number-of-entries-in-node-js-map)
