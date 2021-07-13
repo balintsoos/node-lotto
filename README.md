@@ -16,7 +16,9 @@ $ npm start input.txt
 
 The first argument is the path for the input file.
 
-## Example
+After the input file is processed a `READY` message will be printed to the console. This may take a while. During my testing the processing of an input file with 10 million lines took 3-4 minutes and used almost 1GB of memory.
+
+### Example usage
 
 ```
 $ cat input.txt
@@ -54,7 +56,7 @@ The second part of the application is receiving the lottery picks and returning 
 
 I worked on this project in total for ~6 hours.
 
-- 1-2 hours on planning and thinking about the problem
+- 1-2 hours on planning, gathering resources and thinking about the problem
 - 3-4 hours on the implementation
 - 1 hour on this README
 
