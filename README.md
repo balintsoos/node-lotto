@@ -16,7 +16,7 @@ $ npm start input.txt
 
 The first argument is the path for the input file.
 
-After the input file is processed a `READY` message will be printed to the console. This may take a while. During my testing the processing of the provided input file with 10 million lines took 3-4 minutes and used almost 1GB of memory.
+After the input file is processed a `READY` message will be printed to the console. This may take a while. During my testing the processing of the provided input file with 10 million lines took 2-3 minutes and used almost 700MB of memory.
 
 ### Example usage
 
