@@ -16,6 +16,22 @@ $ npm start input.txt
 
 The first argument is the path for the input file.
 
+## Example
+
+```
+$ cat input.txt
+1 2 3 4 5
+1 2 3 4 9
+1 2 3 9 8
+1 2 9 8 7
+1 9 8 7 6
+
+$ npm start input.txt
+READY
+> 1 2 3 4 5
+1 1 1 1
+```
+
 ## What was I thinking?
 
 Our application could be split into to 2 parts.
