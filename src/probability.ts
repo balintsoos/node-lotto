@@ -14,7 +14,7 @@ const combinationUtil = (
     return;
   }
   // replace index with all possible elements. The condition
-  // "end-i+1 >= sizeOfCombination-index" makes sure that including one element
+  // "end-i+1 >= k-index" makes sure that including one element
   // at index will make a combination with remaining elements at remaining positions
   for (let i = start; i <= end && end - i + 1 >= k - index; i++) {
     temp[index] = numbers[i];
