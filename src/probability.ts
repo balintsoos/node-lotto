@@ -30,4 +30,4 @@ export const combinations = (numbers: number[], k: number): number[][] => {
 
 export const combination = (n: number, k: number): number => factorial(n) / (factorial(k) * factorial(n - k));
 
-const factorial = (n: number): number => (n === 0 ? 1 : n * factorial(n - 1));
+const factorial = (n: number): number => (n > 1 ? n * factorial(n - 1) : 1);
