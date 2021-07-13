@@ -3,7 +3,7 @@ import { registerNumbers } from './register-numbers';
 import { getResult } from './get-result';
 import { getSortedNumbers } from './get-sorted-numbers';
 
-const matches = new Map<string, number>();
+const matches = new Map<number, number>();
 const inputPath = process.argv[2];
 const fileInput = createFileInput(inputPath);
 
