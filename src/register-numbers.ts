@@ -1,4 +1,4 @@
-import { combinations } from './combinations';
+import { combinations } from './probability';
 import { add } from './matches';
 
 export const registerNumbers = (numbers: number[], matches: Map<string, number>): void => {
