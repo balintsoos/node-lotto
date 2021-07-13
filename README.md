@@ -16,7 +16,7 @@ $ npm start input.txt
 
 The first argument is the path for the input file.
 
-## Implementation details
+## What was I thinking?
 
 Our application could be split into to 2 parts.
 
